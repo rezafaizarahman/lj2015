@@ -1,0 +1,360 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,600);
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* Space out content a bit */
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background:  #3d3d3d;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing {
+
+}
+/* Custom page header */
+
+.header {
+    border-bottom: 0px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+/* Custom page footer */
+
+.footer {
+    color: #fff;
+    padding: 40px 0px 15px;
+    text-align: center;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+/* Supporting marketing content */
+
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    /* Remove the padding we set earlier */
+
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+/* Navbar Menu Center*/
+/*
+.navbar-nav {}*/
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.mynavbar {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.mynavbar .nav {
+    float: none;
+}
+
+.mynavbar .nav li {
+    display: inline-block;
+    float: none;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.mynavbar .nav li a {
+    background: #3D3175;
+    color: #fff;
+}
+
+.mynavbar .nav li a:hover {
+    background: #3D3175;
+    color: #fff;
+}
+
+.navbar-brand {
+    display: none
+}
+
+.navbar {
+    background: #3D3175;
+    color: #fff;
+    border-bottom: 0px;
+}
+
+#head-lp {
+    background: url(../images/background-logo.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#unduh {
+    background: #3D3175;
+    color: #fff;
+}
+
+.unduh-kata {
+    padding: 55px 0px;
+    color: #fff;
+}
+a,a:hover, a:active {
+    color: #fff;
+}
+
+.button-social {
+    letter-spacing: 20px;
+    padding: 70px
+}
+
+.logo-lj2015 {
+    padding: 50px;
+    margin: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.playstore {
+    padding-top: 5px;
+}
+
+#news {
+    background: #fff;
+    color: #3d3d3d;
+}
+
+.news {
+    max-width: 1000px;
+}
+
+.title-section {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.news-content {
+    text-align: center;
+}
+
+.content {
+    padding: 5px 20px;
+}
+
+.foto {
+    padding: 20px 0px 0px;
+}
+
+.title-content {
+    padding: 0px 20px 0px;
+}
+
+.more-button {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.more-button-white {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    display: inline-block;
+    margin: 30px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 0px;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-1 {
+border: 3px solid #3d3d3d;
+color: #3d3d3d;
+}
+
+.btn-1a:hover,
+.btn-1a:active {
+    color: #fff;
+    background: #3d3d3d;
+}
+
+
+.btn-2 {
+border: 3px solid #fff;
+color: #fff;
+}
+
+.btn-2a:hover,
+.btn-2a:active {
+    color: #3d3d3d;
+    background: #fff;
+}
+
+#testimonial {
+    background: #3D3175;
+    color: #fff;
+}
+
+#puwi {
+    background: url(../images/puwi-gb.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.puwi-image {
+    padding: 50px 50px;
+    margin: 50px 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#tg {
+    background: url(../images/tg-gb.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tg-image {
+    padding: 50px 50px;
+    margin: 50px 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tg-kata {
+    padding: 0px 25px 0px;
+    color: #fff;
+}
+
+#jazzngisoringin {
+    background: #2d2d2d;
+    color: #fff;
+}
+
+#bahagia {
+    background: #3d3d3d;
+    color: #fff;
+}
